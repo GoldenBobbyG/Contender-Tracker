@@ -20,7 +20,9 @@ const CandidateSearch = () => {
   }, []);
 
   const handleSaveCandidate = () => {
-    setSavedCandidates([...savedCandidates, candidates[currentCandidateIndex]]);
+    const newSavedCandidates = [...savedCandidates, candidates[currentCandidateIndex]];
+    setSavedCandidates(newSavedCandidates);
+    localStorage.setItem('savedCandidates', JSON.stringify(newSavedCandidates));
     setCurrentCandidateIndex(currentCandidateIndex + 1);
   };
 
