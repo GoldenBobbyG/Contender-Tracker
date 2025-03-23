@@ -10,12 +10,20 @@ Install dependencies and run the program.
 
 ## Usage
 Follow link for site.
+https://profound-heliotrope-e51daf.netlify.app/
+
 
 ## Contribution
 None.
 
 ## Tests
 None.
+
+
+## Snippet
+![image](https://github.com/user-attachments/assets/68e50bb6-87fa-4f83-a162-77136e5e256e)
+
+![image](https://github.com/user-attachments/assets/abb1aac0-fae9-494c-a9fd-73c805546eb7)
 
 
 ## License
