@@ -85,18 +85,18 @@ main {
 }
 
 tr {
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #000;
   color: white;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #333333;
+  background-color: #241d8f;
 }
 
 .nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 1em 2em;
 }
 
