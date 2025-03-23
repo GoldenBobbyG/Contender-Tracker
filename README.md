@@ -19,6 +19,8 @@ None.
 ## Tests
 None.
 
+## Notes
+Used copilot for debuging and help with tables. Resources to remove errors with Git API link. 
 
 ## Snippet
 ![image](https://github.com/user-attachments/assets/68e50bb6-87fa-4f83-a162-77136e5e256e)
