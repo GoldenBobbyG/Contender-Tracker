@@ -1,10 +1,12 @@
 import {useState, useEffect} from 'react';
 import Candidate from '../interfaces/Candidate.interface';
 
-
+// This component displays the saved candidates to the user.
+// The saved candidates are retrieved from local storage and displayed in a table.
+// If there are no saved candidates, a message is displayed to the user.
 const SavedCandidates = () => {
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
-
+// The useEffect hook is used to retrieve the saved candidates from local storage when the component is mounted.
   useEffect(() => {
     const storedCandidates = JSON.parse(localStorage.getItem("savedCandidates") || "[]");
     setSavedCandidates(storedCandidates);
